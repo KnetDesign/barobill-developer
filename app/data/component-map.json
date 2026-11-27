@@ -1,0 +1,17 @@
+{
+  "$note": "Figma 컴포넌트 ↔ Nuxt UI ↔ Vue 경로. Figma Node ID는 바로빌 라이브러리 생성 후 채움(docs/FIGMA_LINKS.md). Code Connect(Org 플랜 지원)는 Vue 매핑 검증 후 적용.",
+  "components": [
+    { "figma": "GNB / Header", "nuxtUi": "UDropdownMenu, USlideover, UButton", "vue": "app/components/site/AppHeader.vue", "usedIn": "전 페이지", "figmaNodeId": null },
+    { "figma": "Mega Menu (A안)", "nuxtUi": null, "vue": "app/components/site/AppHeader.vue#mega-panel", "usedIn": "전 페이지", "figmaNodeId": null },
+    { "figma": "Footer", "nuxtUi": null, "vue": "app/components/site/AppFooter.vue", "usedIn": "전 페이지", "figmaNodeId": null },
+    { "figma": "Logo", "nuxtUi": null, "vue": "app/components/site/AppLogo.vue", "usedIn": "헤더·푸터 (공식 SVG 교체 예정)", "figmaNodeId": null },
+    { "figma": "Section Head", "nuxtUi": "UPageSection(header) 대응", "vue": "app/components/ui-kit/SectionHead.vue", "usedIn": "메인 02-1~02-3", "figmaNodeId": null },
+    { "figma": "Button / Primary · Outline", "nuxtUi": "UButton", "vue": "@nuxt/ui", "usedIn": "전 페이지", "figmaNodeId": null },
+    { "figma": "Accordion", "nuxtUi": "UAccordion", "vue": "@nuxt/ui", "usedIn": "메인 02-1·02-2·02-3·05", "figmaNodeId": null },
+    { "figma": "Stepper (정적)", "nuxtUi": "UStepper 대응(정적 마크업)", "vue": "app/components/home/HomeStart.vue", "usedIn": "메인 02-4", "figmaNodeId": null },
+    { "figma": "Solution Card", "nuxtUi": "UPageCard 대응", "vue": "app/components/home/HomeSolutions.vue", "usedIn": "메인 03", "figmaNodeId": null },
+    { "figma": "Logo Marquee", "nuxtUi": "UMarquee / UPageLogos 대응", "vue": "app/components/home/HomeHero.vue", "usedIn": "메인 01", "figmaNodeId": null },
+    { "figma": "Hero (A 가운데 / B 6:6)", "nuxtUi": "UPageHero 대응", "vue": "app/components/home/HomeHero.vue", "usedIn": "메인 01", "figmaNodeId": null },
+    { "figma": "Confirm Tag (검토 표시)", "nuxtUi": "UTooltip", "vue": "app/components/ui-kit/ConfirmTag.vue", "usedIn": "검토 전용 · ?clean=1에서 숨김", "figmaNodeId": null }
+  ]
+}

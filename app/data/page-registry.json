@@ -1,0 +1,747 @@
+{
+  "$schema": "상태 값: plan=기획 대기|기획 검토|기획 확정 · design=기획 대기|디자인 진행|디자인 검토|디자인 확정|업데이트 필요 · dev=미착수|개발 구현|QA 완료|업데이트 필요",
+  "source": {
+    "wireframe": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW",
+    "wireframeLocal": "docs/wireframe/source.html",
+    "pageIdsInSource": 27,
+    "checkedAt": "2026-11-27"
+  },
+  "pages": [
+    {
+      "id": "main",
+      "name": "메인",
+      "route": "/",
+      "group": "메인",
+      "wireframe": {
+        "anchor": "p-main",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-main"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 확정",
+        "design": "디자인 진행",
+        "dev": "개발 구현"
+      },
+      "approvedVersion": null,
+      "concepts": [
+        "a",
+        "b"
+      ],
+      "components": [
+        "HomeHero",
+        "HomeWhy",
+        "HomeStability",
+        "HomeIntegration",
+        "HomeCost",
+        "HomeStart",
+        "HomeSolutions",
+        "HomeCases",
+        "HomeFaq",
+        "HomeCta",
+        "AppHeader",
+        "AppFooter"
+      ],
+      "updated": "2026-11-27",
+      "notes": "화면설계 확정안(2026-11-27 H1 확정) 기준. 레이아웃 미선택 섹션은 컨셉 A/B로 비교 중. 미확정 카피·정책은 docs/DECISIONS.md 참조."
+    },
+    {
+      "id": "api-rules",
+      "name": "상품 상세 공통 규칙",
+      "route": null,
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-api-rules",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-api-rules"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": "라우트 없음(템플릿 규칙)"
+    },
+    {
+      "id": "api",
+      "name": "1-1 전자세금계산서 발행",
+      "route": "/api/tax-invoice",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-api",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-api"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": "Phase 3 우선 제작 대상"
+    },
+    {
+      "id": "cashbill",
+      "name": "1-2 현금영수증 발행",
+      "route": "/api/cash-receipt",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-cashbill",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-cashbill"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "hometax",
+      "name": "1-3 홈택스 매입매출조회",
+      "route": "/api/hometax",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-hometax",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-hometax"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "card",
+      "name": "1-4 카드 통합 조회",
+      "route": "/api/card",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-card",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-card"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": "Phase 3 우선 제작 대상"
+    },
+    {
+      "id": "bank",
+      "name": "1-5 계좌 통합 조회",
+      "route": "/api/bank-account",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-bank",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-bank"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": "Phase 3 우선 제작 대상"
+    },
+    {
+      "id": "corp",
+      "name": "1-6 사업자등록상태조회",
+      "route": "/api/business-status",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-corp",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-corp"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "sms",
+      "name": "1-7 문자 전송",
+      "route": "/api/sms",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-sms",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-sms"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": "화면설계: 내용 채우기 전 게시 불가"
+    },
+    {
+      "id": "kakao",
+      "name": "1-8 카카오 메시지 전송",
+      "route": "/api/kakao",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-kakao",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-kakao"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "fax",
+      "name": "1-9 팩스 전송",
+      "route": "/api/fax",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-fax",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-fax"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "holder",
+      "name": "1-10 예금주 성명·실명 조회",
+      "route": "/api/account-holder",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-holder",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-holder"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "third",
+      "name": "1-11 제3자세금계산서발급사실조회",
+      "route": "/api/third-party-issuance",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-third",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-third"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "edoc",
+      "name": "1-12 전자문서",
+      "route": "/api/e-document",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-edoc",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-edoc"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": "화면설계: 내용 채우기 전 게시 불가"
+    },
+    {
+      "id": "onprem",
+      "name": "1-13 전자세금계산서 구축형",
+      "route": "/api/tax-invoice-onpremise",
+      "group": "API 상품",
+      "wireframe": {
+        "anchor": "p-onprem",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-onprem"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "sol-work",
+      "name": "회계·경비 데이터 수집",
+      "route": "/solutions/accounting-data",
+      "group": "상황별 솔루션",
+      "wireframe": {
+        "anchor": "p-sol-work",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-sol-work"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "sol-sales",
+      "name": "매출증빙 발행",
+      "route": "/solutions/sales-evidence",
+      "group": "상황별 솔루션",
+      "wireframe": {
+        "anchor": null,
+        "url": null
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 대기",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": "화면설계 없음 · 템플릿 재사용 예정"
+    },
+    {
+      "id": "sol-settle",
+      "name": "입금 확인·정산",
+      "route": "/solutions/settlement",
+      "group": "상황별 솔루션",
+      "wireframe": {
+        "anchor": null,
+        "url": null
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 대기",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": "화면설계 없음 · 템플릿 재사용 예정"
+    },
+    {
+      "id": "sol-saas",
+      "name": "SaaS·플랫폼에 탑재",
+      "route": "/solutions/platform",
+      "group": "상황별 솔루션",
+      "wireframe": {
+        "anchor": "p-sol-saas",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-sol-saas"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "resell",
+      "name": "재판매",
+      "route": "/solutions/resell",
+      "group": "상황별 솔루션",
+      "wireframe": {
+        "anchor": "p-resell",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-resell"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "sol-si",
+      "name": "SI·외주 구축",
+      "route": "/solutions/si",
+      "group": "상황별 솔루션",
+      "wireframe": {
+        "anchor": null,
+        "url": null
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 대기",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": "화면설계 없음 · 템플릿 재사용 예정"
+    },
+    {
+      "id": "docs",
+      "name": "API 개발 문서",
+      "route": "/docs/guides/structure",
+      "group": "문서 · 요금",
+      "wireframe": {
+        "anchor": "p-docs",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-docs"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "mcp",
+      "name": "AI 에이전트 연결",
+      "route": "/docs/guides/ai-tools",
+      "group": "문서 · 요금",
+      "wireframe": {
+        "anchor": "p-mcp",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-mcp"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "pricing",
+      "name": "요금 안내",
+      "route": "/pricing",
+      "group": "문서 · 요금",
+      "wireframe": {
+        "anchor": "p-pricing",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-pricing"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "support",
+      "name": "FAQ · 고객사례",
+      "route": "/support/faq",
+      "group": "고객지원 · 계정",
+      "wireframe": {
+        "anchor": "p-support",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-support"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "contact",
+      "name": "이용문의",
+      "route": "/support/contact",
+      "group": "고객지원 · 계정",
+      "wireframe": {
+        "anchor": "p-contact",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-contact"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "proposal",
+      "name": "제안서 다운로드",
+      "route": "/support/proposal",
+      "group": "고객지원 · 계정",
+      "wireframe": {
+        "anchor": "p-proposal",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-proposal"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "notice",
+      "name": "공지사항",
+      "route": "/support/notices",
+      "group": "고객지원 · 계정",
+      "wireframe": {
+        "anchor": "p-notice",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-notice"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "signup",
+      "name": "회원가입",
+      "route": "/signup",
+      "group": "고객지원 · 계정",
+      "wireframe": {
+        "anchor": "p-signup",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-signup"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    },
+    {
+      "id": "leave",
+      "name": "탈퇴",
+      "route": "/account/leave",
+      "group": "고객지원 · 계정",
+      "wireframe": {
+        "anchor": "p-leave",
+        "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-leave"
+      },
+      "figma": {
+        "fileKey": null,
+        "nodeId": null
+      },
+      "status": {
+        "plan": "기획 검토",
+        "design": "기획 대기",
+        "dev": "미착수"
+      },
+      "approvedVersion": null,
+      "concepts": [],
+      "components": [],
+      "updated": "2026-11-27",
+      "notes": ""
+    }
+  ]
+}

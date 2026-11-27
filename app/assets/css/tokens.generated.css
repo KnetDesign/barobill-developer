@@ -1,0 +1,107 @@
+/* ⚠ 자동 생성 파일 — 직접 수정하지 마세요.
+ * 원본: design-tokens/tokens.json · 생성: npm run tokens
+ * version 0.1.0 */
+
+/* Primitive (모드 없음) */
+@theme static {
+  --color-brand-50: #eef5ff;
+  --color-brand-100: #d9e8ff;
+  --color-brand-200: #bcd7ff;
+  --color-brand-300: #8ebdff;
+  --color-brand-400: #5998ff;
+  --color-brand-500: #3273fb;
+  --color-brand-600: #1b55f0;
+  --color-brand-700: #1442dc;
+  --color-brand-800: #1737b2;
+  --color-brand-900: #19338c;
+  --color-brand-950: #142155;
+  --color-ink-50: #f6f7f9;
+  --color-ink-100: #eef0f3;
+  --color-ink-200: #dfe3e8;
+  --color-ink-300: #c5ccd5;
+  --color-ink-400: #98a2b0;
+  --color-ink-500: #5f6a79;
+  --color-ink-600: #4d5765;
+  --color-ink-700: #374150;
+  --color-ink-800: #222b38;
+  --color-ink-900: #141b26;
+  --color-ink-950: #0a0f18;
+  --color-white: #ffffff;
+  --color-navy-700: #16243f;
+  --color-navy-800: #111d33;
+  --color-navy-900: #0b1424;
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+}
+
+/* 브랜드 확장 시맨틱 → Tailwind 유틸리티 */
+@theme inline {
+  --color-accent: var(--bb-accent);
+  --color-accent-soft: var(--bb-accent-soft);
+  --color-accent-line: var(--bb-accent-line);
+  --color-brand-surface: var(--bb-surface-brand);
+  --color-brand-surface-raised: var(--bb-surface-brand-raised);
+  --color-focus: var(--bb-focus-ring);
+}
+
+/* Semantic · Component — Light */
+:root, .light {
+  --ui-primary: var(--color-brand-600);
+  --ui-text-dimmed: var(--color-ink-400);
+  --ui-text-muted: var(--color-ink-500);
+  --ui-text-toned: var(--color-ink-600);
+  --ui-text: var(--color-ink-700);
+  --ui-text-highlighted: var(--color-ink-950);
+  --ui-text-inverted: var(--color-white);
+  --bb-accent: var(--color-brand-700);
+  --ui-bg: var(--color-white);
+  --ui-bg-muted: var(--color-ink-50);
+  --ui-bg-elevated: var(--color-ink-100);
+  --ui-bg-accented: var(--color-ink-200);
+  --ui-bg-inverted: var(--color-ink-900);
+  --bb-accent-soft: var(--color-brand-50);
+  --bb-surface-brand: var(--color-navy-900);
+  --bb-surface-brand-raised: var(--color-navy-800);
+  --ui-border: var(--color-ink-200);
+  --ui-border-muted: var(--color-ink-100);
+  --ui-border-accented: var(--color-ink-300);
+  --ui-border-inverted: var(--color-ink-900);
+  --bb-accent-line: var(--color-brand-300);
+  --bb-focus-ring: var(--color-brand-500);
+  --ui-radius: var(--radius-md);
+  --bb-radius-card: var(--radius-lg);
+  --ui-header-height: 64px;
+  --bb-content: 1216px;
+  --bb-content-wide: 1376px;
+}
+
+/* Semantic · Component — Dark (사이트 다크모드, 브랜드 다크 섹션과 별개) */
+.dark {
+  --ui-primary: var(--color-brand-400);
+  --ui-text-dimmed: var(--color-ink-500);
+  --ui-text-muted: var(--color-ink-400);
+  --ui-text-toned: var(--color-ink-300);
+  --ui-text: var(--color-ink-200);
+  --ui-text-highlighted: var(--color-white);
+  --ui-text-inverted: var(--color-ink-950);
+  --bb-accent: var(--color-brand-300);
+  --ui-bg: var(--color-ink-950);
+  --ui-bg-muted: var(--color-ink-900);
+  --ui-bg-elevated: var(--color-ink-800);
+  --ui-bg-accented: var(--color-ink-700);
+  --ui-bg-inverted: var(--color-white);
+  --bb-accent-soft: #13213f;
+  --bb-surface-brand: var(--color-navy-800);
+  --bb-surface-brand-raised: var(--color-navy-700);
+  --ui-border: var(--color-ink-800);
+  --ui-border-muted: var(--color-ink-800);
+  --ui-border-accented: var(--color-ink-700);
+  --ui-border-inverted: var(--color-white);
+  --bb-accent-line: var(--color-brand-700);
+  --bb-focus-ring: var(--color-brand-400);
+}

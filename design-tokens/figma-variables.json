@@ -1,0 +1,715 @@
+{
+  "collections": [
+    {
+      "name": "BB Primitives",
+      "modes": [
+        "Value"
+      ],
+      "variables": [
+        {
+          "name": "Color/brand/50",
+          "type": "COLOR",
+          "values": {
+            "Value": "#eef5ff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-50)"
+          }
+        },
+        {
+          "name": "Color/brand/100",
+          "type": "COLOR",
+          "values": {
+            "Value": "#d9e8ff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-100)"
+          }
+        },
+        {
+          "name": "Color/brand/200",
+          "type": "COLOR",
+          "values": {
+            "Value": "#bcd7ff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-200)"
+          }
+        },
+        {
+          "name": "Color/brand/300",
+          "type": "COLOR",
+          "values": {
+            "Value": "#8ebdff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-300)"
+          }
+        },
+        {
+          "name": "Color/brand/400",
+          "type": "COLOR",
+          "values": {
+            "Value": "#5998ff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-400)"
+          }
+        },
+        {
+          "name": "Color/brand/500",
+          "type": "COLOR",
+          "values": {
+            "Value": "#3273fb"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-500)"
+          }
+        },
+        {
+          "name": "Color/brand/600",
+          "type": "COLOR",
+          "values": {
+            "Value": "#1b55f0"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-600)"
+          }
+        },
+        {
+          "name": "Color/brand/700",
+          "type": "COLOR",
+          "values": {
+            "Value": "#1442dc"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-700)"
+          }
+        },
+        {
+          "name": "Color/brand/800",
+          "type": "COLOR",
+          "values": {
+            "Value": "#1737b2"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-800)"
+          }
+        },
+        {
+          "name": "Color/brand/900",
+          "type": "COLOR",
+          "values": {
+            "Value": "#19338c"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-900)"
+          }
+        },
+        {
+          "name": "Color/brand/950",
+          "type": "COLOR",
+          "values": {
+            "Value": "#142155"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-brand-950)"
+          }
+        },
+        {
+          "name": "Color/ink/50",
+          "type": "COLOR",
+          "values": {
+            "Value": "#f6f7f9"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-50)"
+          }
+        },
+        {
+          "name": "Color/ink/100",
+          "type": "COLOR",
+          "values": {
+            "Value": "#eef0f3"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-100)"
+          }
+        },
+        {
+          "name": "Color/ink/200",
+          "type": "COLOR",
+          "values": {
+            "Value": "#dfe3e8"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-200)"
+          }
+        },
+        {
+          "name": "Color/ink/300",
+          "type": "COLOR",
+          "values": {
+            "Value": "#c5ccd5"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-300)"
+          }
+        },
+        {
+          "name": "Color/ink/400",
+          "type": "COLOR",
+          "values": {
+            "Value": "#98a2b0"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-400)"
+          }
+        },
+        {
+          "name": "Color/ink/500",
+          "type": "COLOR",
+          "values": {
+            "Value": "#5f6a79"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-500)"
+          }
+        },
+        {
+          "name": "Color/ink/600",
+          "type": "COLOR",
+          "values": {
+            "Value": "#4d5765"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-600)"
+          }
+        },
+        {
+          "name": "Color/ink/700",
+          "type": "COLOR",
+          "values": {
+            "Value": "#374150"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-700)"
+          }
+        },
+        {
+          "name": "Color/ink/800",
+          "type": "COLOR",
+          "values": {
+            "Value": "#222b38"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-800)"
+          }
+        },
+        {
+          "name": "Color/ink/900",
+          "type": "COLOR",
+          "values": {
+            "Value": "#141b26"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-900)"
+          }
+        },
+        {
+          "name": "Color/ink/950",
+          "type": "COLOR",
+          "values": {
+            "Value": "#0a0f18"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-ink-950)"
+          }
+        },
+        {
+          "name": "Color/white",
+          "type": "COLOR",
+          "values": {
+            "Value": "#ffffff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-white)"
+          }
+        },
+        {
+          "name": "Color/navy/700",
+          "type": "COLOR",
+          "values": {
+            "Value": "#16243f"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-navy-700)"
+          }
+        },
+        {
+          "name": "Color/navy/800",
+          "type": "COLOR",
+          "values": {
+            "Value": "#111d33"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-navy-800)"
+          }
+        },
+        {
+          "name": "Color/navy/900",
+          "type": "COLOR",
+          "values": {
+            "Value": "#0b1424"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-navy-900)"
+          }
+        },
+        {
+          "name": "Radius/xs",
+          "type": "FLOAT",
+          "values": {
+            "Value": 4
+          },
+          "codeSyntax": {
+            "WEB": "4px"
+          }
+        },
+        {
+          "name": "Radius/sm",
+          "type": "FLOAT",
+          "values": {
+            "Value": 6
+          },
+          "codeSyntax": {
+            "WEB": "6px"
+          }
+        },
+        {
+          "name": "Radius/md",
+          "type": "FLOAT",
+          "values": {
+            "Value": 8
+          },
+          "codeSyntax": {
+            "WEB": "8px"
+          }
+        },
+        {
+          "name": "Radius/lg",
+          "type": "FLOAT",
+          "values": {
+            "Value": 12
+          },
+          "codeSyntax": {
+            "WEB": "12px"
+          }
+        },
+        {
+          "name": "Radius/xl",
+          "type": "FLOAT",
+          "values": {
+            "Value": 16
+          },
+          "codeSyntax": {
+            "WEB": "16px"
+          }
+        },
+        {
+          "name": "Space/unit",
+          "type": "FLOAT",
+          "values": {
+            "Value": 8
+          },
+          "codeSyntax": {
+            "WEB": "8px"
+          }
+        }
+      ]
+    },
+    {
+      "name": "BB Semantic",
+      "modes": [
+        "Light",
+        "Dark"
+      ],
+      "variables": [
+        {
+          "name": "Color/Primary",
+          "token": "semantic.color.primary",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/brand/600"
+            },
+            "Dark": {
+              "alias": "Color/brand/400"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-primary)"
+          },
+          "description": "주 행동(CTA)·강조 채움"
+        },
+        {
+          "name": "Color/Text/Dimmed",
+          "token": "semantic.color.text.dimmed",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/400"
+            },
+            "Dark": {
+              "alias": "Color/ink/500"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-text-dimmed)"
+          },
+          "description": "가장 약한 글자"
+        },
+        {
+          "name": "Color/Text/Muted",
+          "token": "semantic.color.text.muted",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/500"
+            },
+            "Dark": {
+              "alias": "Color/ink/400"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-text-muted)"
+          },
+          "description": "보조 글자·캡션"
+        },
+        {
+          "name": "Color/Text/Toned",
+          "token": "semantic.color.text.toned",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/600"
+            },
+            "Dark": {
+              "alias": "Color/ink/300"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-text-toned)"
+          },
+          "description": "본문 설명"
+        },
+        {
+          "name": "Color/Text/Default",
+          "token": "semantic.color.text.default",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/700"
+            },
+            "Dark": {
+              "alias": "Color/ink/200"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-text)"
+          },
+          "description": "기본 글자"
+        },
+        {
+          "name": "Color/Text/Highlighted",
+          "token": "semantic.color.text.highlighted",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/950"
+            },
+            "Dark": {
+              "alias": "Color/white"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-text-highlighted)"
+          },
+          "description": "제목·강조 글자"
+        },
+        {
+          "name": "Color/Text/Inverted",
+          "token": "semantic.color.text.inverted",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/white"
+            },
+            "Dark": {
+              "alias": "Color/ink/950"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-text-inverted)"
+          },
+          "description": "반전 면 위 글자"
+        },
+        {
+          "name": "Color/Text/Accent",
+          "token": "semantic.color.text.accent",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/brand/700"
+            },
+            "Dark": {
+              "alias": "Color/brand/300"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-accent)"
+          },
+          "description": "브랜드 글자·링크·눈썹·아이콘"
+        },
+        {
+          "name": "Color/Background/Default",
+          "token": "semantic.color.bg.default",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/white"
+            },
+            "Dark": {
+              "alias": "Color/ink/950"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-bg)"
+          },
+          "description": "페이지 배경"
+        },
+        {
+          "name": "Color/Background/Muted",
+          "token": "semantic.color.bg.muted",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/50"
+            },
+            "Dark": {
+              "alias": "Color/ink/900"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-bg-muted)"
+          },
+          "description": "연한 면(섹션 구분)"
+        },
+        {
+          "name": "Color/Background/Elevated",
+          "token": "semantic.color.bg.elevated",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/100"
+            },
+            "Dark": {
+              "alias": "Color/ink/800"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-bg-elevated)"
+          },
+          "description": "떠 있는 면·칩"
+        },
+        {
+          "name": "Color/Background/Accented",
+          "token": "semantic.color.bg.accented",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/200"
+            },
+            "Dark": {
+              "alias": "Color/ink/700"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-bg-accented)"
+          },
+          "description": "더 진한 면"
+        },
+        {
+          "name": "Color/Background/Inverted",
+          "token": "semantic.color.bg.inverted",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/900"
+            },
+            "Dark": {
+              "alias": "Color/white"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-bg-inverted)"
+          },
+          "description": "반전 면"
+        },
+        {
+          "name": "Color/Background/Accent Soft",
+          "token": "semantic.color.bg.accentSoft",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/brand/50"
+            },
+            "Dark": {
+              "value": "#13213f"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-accent-soft)"
+          },
+          "description": "브랜드 연한 면(아이콘 배경 등)"
+        },
+        {
+          "name": "Color/Surface/Brand Dark",
+          "token": "semantic.color.bg.brandSurface",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/navy/900"
+            },
+            "Dark": {
+              "alias": "Color/navy/800"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-surface-brand)"
+          },
+          "description": "브랜드 다크 섹션 면(히어로·02-1·하단 CTA). 사이트 다크모드와 별개로 라이트에서도 어두움"
+        },
+        {
+          "name": "Color/Surface/Brand Dark Raised",
+          "token": "semantic.color.bg.brandSurfaceRaised",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/navy/800"
+            },
+            "Dark": {
+              "alias": "Color/navy/700"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-surface-brand-raised)"
+          },
+          "description": "브랜드 다크 섹션 안의 패널"
+        },
+        {
+          "name": "Color/Border/Default",
+          "token": "semantic.color.border.default",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/200"
+            },
+            "Dark": {
+              "alias": "Color/ink/800"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-border)"
+          },
+          "description": "기본 테두리·구분선"
+        },
+        {
+          "name": "Color/Border/Muted",
+          "token": "semantic.color.border.muted",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/100"
+            },
+            "Dark": {
+              "alias": "Color/ink/800"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-border-muted)"
+          },
+          "description": "약한 구분선"
+        },
+        {
+          "name": "Color/Border/Accented",
+          "token": "semantic.color.border.accented",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/300"
+            },
+            "Dark": {
+              "alias": "Color/ink/700"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-border-accented)"
+          },
+          "description": "강한 테두리·hover"
+        },
+        {
+          "name": "Color/Border/Inverted",
+          "token": "semantic.color.border.inverted",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/ink/900"
+            },
+            "Dark": {
+              "alias": "Color/white"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--ui-border-inverted)"
+          },
+          "description": "반전 테두리"
+        },
+        {
+          "name": "Color/Border/Accent",
+          "token": "semantic.color.border.accent",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/brand/300"
+            },
+            "Dark": {
+              "alias": "Color/brand/700"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-accent-line)"
+          },
+          "description": "브랜드 테두리(hover·선택)"
+        },
+        {
+          "name": "Component/Focus Ring",
+          "token": "component.focusRing",
+          "type": "COLOR",
+          "values": {
+            "Light": {
+              "alias": "Color/brand/500"
+            },
+            "Dark": {
+              "alias": "Color/brand/400"
+            }
+          },
+          "codeSyntax": {
+            "WEB": "var(--bb-focus-ring)"
+          },
+          "description": "키보드 포커스 링"
+        }
+      ]
+    }
+  ]
+}

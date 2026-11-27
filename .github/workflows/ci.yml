@@ -1,0 +1,43 @@
+name: CI · design QA
+
+on:
+  push:
+    branches: [main, design-preview, 'feature/**', 'design/**', 'claude/**']
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: 디자인 토큰 정합성 (tokens.json ↔ 생성물 · 대비 AA)
+        run: npm run tokens:check
+      - name: 페이지 레지스트리 문서 정합성
+        run: npm run registry:check
+      - name: TypeScript
+        run: npx nuxt typecheck
+      - name: Build
+        run: npm run build
+      - name: Playwright (chromium)
+        run: npx -y playwright@1.63.0 install --with-deps chromium && npm i --no-save playwright@1.63.0
+      - name: 스모크 QA (메인 · 4폭 · Light/Dark · 컨셉 A/B)
+        run: |
+          node .output/server/index.mjs &
+          npx -y wait-on http://localhost:3000 --timeout 60000
+          BASE_URL=http://localhost:3000 npm run qa:smoke -- --routes=/,/studio/guide --concepts=a,b
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: qa-screenshots
+          path: .qa/
+          retention-days: 14

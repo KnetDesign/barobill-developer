@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+@import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
+
+@import "./tokens.generated.css";
+
+/* ==========================================================================
+   레이아웃 변수 (토큰 원본: design-tokens/tokens.json → tokens.generated.css)
+   ========================================================================== */
+@theme static {
+  --ease-out-soft: cubic-bezier(.22, .61, .36, 1);
+}
+:root {
+  --gut: 20px;
+  --section-y: 72px;
+}
+@media (min-width: 768px) {
+  :root { --gut: 32px; --section-y: 96px; }
+}
+@media (min-width: 1024px) {
+  :root { --section-y: 120px; }
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font-sans);
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss06";
+}
+
+/* ---------- Layout ---------- */
+@utility bb-container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: calc(1216px + 2 * var(--gut));
+  padding-inline: var(--gut);
+  @media (min-width: 1440px) {
+    max-width: 1600px;
+    padding-inline: 112px;
+  }
+}
+@utility bb-section {
+  padding-block: var(--section-y);
+}
+
+/* ---------- Typography scale (와이어프레임 타이포 단계) ---------- */
+@utility text-display { font-size: 34px; line-height: 44px; font-weight: 800; letter-spacing: -0.025em;
+  @media (min-width: 768px) { font-size: 48px; line-height: 60px; } }
+@utility text-h1 { font-size: 30px; line-height: 40px; font-weight: 800; letter-spacing: -0.02em;
+  @media (min-width: 768px) { font-size: 40px; line-height: 52px; } }
+@utility text-h2 { font-size: 26px; line-height: 34px; font-weight: 800; letter-spacing: -0.02em;
+  @media (min-width: 768px) { font-size: 32px; line-height: 40px; } }
+@utility text-h3 { font-size: 20px; line-height: 30px; font-weight: 700; letter-spacing: -0.01em;
+  @media (min-width: 768px) { font-size: 22px; line-height: 32px; } }
+@utility text-title { font-size: 18px; line-height: 28px; font-weight: 700; letter-spacing: -0.01em; }
+@utility text-body { font-size: 16px; line-height: 24px; }
+@utility text-small { font-size: 14px; line-height: 20px; }
+@utility text-caption { font-size: 12px; line-height: 16px; }
+@utility text-eyebrow { font-size: 14px; line-height: 24px; font-weight: 700; letter-spacing: 0.02em; }
+
+/* ---------- Motion ---------- */
+@keyframes bb-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes bb-flow { to { stroke-dashoffset: -24; } }
+@keyframes bb-fade-up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible { outline: 2px solid var(--bb-focus-ring); outline-offset: 2px; }
