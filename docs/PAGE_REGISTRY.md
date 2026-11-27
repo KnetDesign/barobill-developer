@@ -9,7 +9,7 @@
 
 | ID | 페이지 | Route | 화면설계서 | Figma (file / node) | 기획 | 디자인 | 개발 | 승인 버전 | 갱신 | 메모 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `main` | 메인 | `/` | [#p-main](https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-main) | — | 기획 확정 | 디자인 진행 | 개발 구현 | — | 2026-11-27 | 화면설계 확정안(2026-11-27 H1 확정) 기준. 레이아웃 미선택 섹션은 컨셉 A/B로 비교 중. 미확정 카피·정책은 docs/DECISIONS.md 참조. |
+| `main` | 메인 | `/` | [#p-main](https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-main) | ajX49szVrasTlY1awTMPD6 / 4:2 | 기획 확정 | 디자인 진행 | 개발 구현 | — | 2026-11-27 | 화면설계 확정안(2026-11-27 H1 확정) 기준. 레이아웃 미선택 섹션은 컨셉 A/B로 비교 중. 미확정 카피·정책은 docs/DECISIONS.md 참조. Figma Page 4에 컨셉 A(4:2)·B(5:2) 1280 코드 임포트(편집 가능 레이어, 변수 미연결). |
 | `api-rules` | 상품 상세 공통 규칙 | — | [#p-api-rules](https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-api-rules) | — | 기획 검토 | 기획 대기 | 미착수 | — | 2026-11-27 | 라우트 없음(템플릿 규칙) |
 | `api` | 1-1 전자세금계산서 발행 | `/api/tax-invoice` | [#p-api](https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-api) | — | 기획 검토 | 기획 대기 | 미착수 | — | 2026-11-27 | Phase 3 우선 제작 대상 |
 | `cashbill` | 1-2 현금영수증 발행 | `/api/cash-receipt` | [#p-cashbill](https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-cashbill) | — | 기획 검토 | 기획 대기 | 미착수 | — | 2026-11-27 |  |

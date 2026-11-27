@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     theme: { colors: ['primary', 'secondary', 'neutral', 'success', 'info', 'warning', 'error'] }
   },
   icon: {
+    mode: 'svg',
     // 아이콘은 설치된 @iconify-json 패키지에서 번들 (외부 API 호출 없음)
     serverBundle: 'local',
     clientBundle: { scan: true }

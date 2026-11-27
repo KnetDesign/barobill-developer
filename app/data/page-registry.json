@@ -17,8 +17,10 @@
         "url": "https://claude.ai/artifact/Pmisymx82VPD4n1Xt8pcBW#p-main"
       },
       "figma": {
-        "fileKey": null,
-        "nodeId": null
+        "fileKey": "ajX49szVrasTlY1awTMPD6",
+        "nodeId": "4:2",
+        "nodeIdB": "5:2",
+        "page": "Page 4 (1:34)"
       },
       "status": {
         "plan": "기획 확정",
@@ -45,7 +47,7 @@
         "AppFooter"
       ],
       "updated": "2026-11-27",
-      "notes": "화면설계 확정안(2026-11-27 H1 확정) 기준. 레이아웃 미선택 섹션은 컨셉 A/B로 비교 중. 미확정 카피·정책은 docs/DECISIONS.md 참조."
+      "notes": "화면설계 확정안(2026-11-27 H1 확정) 기준. 레이아웃 미선택 섹션은 컨셉 A/B로 비교 중. 미확정 카피·정책은 docs/DECISIONS.md 참조. Figma Page 4에 컨셉 A(4:2)·B(5:2) 1280 코드 임포트(편집 가능 레이어, 변수 미연결)."
     },
     {
       "id": "api-rules",

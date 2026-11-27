@@ -10,7 +10,7 @@
           "name": "Color/brand/50",
           "type": "COLOR",
           "values": {
-            "Value": "#eef5ff"
+            "Value": "#eef4ff"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-50)"
@@ -20,7 +20,7 @@
           "name": "Color/brand/100",
           "type": "COLOR",
           "values": {
-            "Value": "#d9e8ff"
+            "Value": "#dce7ff"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-100)"
@@ -30,7 +30,7 @@
           "name": "Color/brand/200",
           "type": "COLOR",
           "values": {
-            "Value": "#bcd7ff"
+            "Value": "#bfd3ff"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-200)"
@@ -40,7 +40,7 @@
           "name": "Color/brand/300",
           "type": "COLOR",
           "values": {
-            "Value": "#8ebdff"
+            "Value": "#93b4ff"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-300)"
@@ -50,7 +50,7 @@
           "name": "Color/brand/400",
           "type": "COLOR",
           "values": {
-            "Value": "#5998ff"
+            "Value": "#6592ff"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-400)"
@@ -60,7 +60,7 @@
           "name": "Color/brand/500",
           "type": "COLOR",
           "values": {
-            "Value": "#3273fb"
+            "Value": "#3b72ff"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-500)"
@@ -70,7 +70,7 @@
           "name": "Color/brand/600",
           "type": "COLOR",
           "values": {
-            "Value": "#1b55f0"
+            "Value": "#3369e7"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-600)"
@@ -80,7 +80,7 @@
           "name": "Color/brand/700",
           "type": "COLOR",
           "values": {
-            "Value": "#1442dc"
+            "Value": "#2652c7"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-700)"
@@ -90,7 +90,7 @@
           "name": "Color/brand/800",
           "type": "COLOR",
           "values": {
-            "Value": "#1737b2"
+            "Value": "#0033a1"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-800)"
@@ -100,7 +100,7 @@
           "name": "Color/brand/900",
           "type": "COLOR",
           "values": {
-            "Value": "#19338c"
+            "Value": "#0b2a7a"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-900)"
@@ -110,7 +110,7 @@
           "name": "Color/brand/950",
           "type": "COLOR",
           "values": {
-            "Value": "#142155"
+            "Value": "#0a1a4a"
           },
           "codeSyntax": {
             "WEB": "var(--color-brand-950)"
@@ -264,6 +264,16 @@
           },
           "codeSyntax": {
             "WEB": "var(--color-navy-900)"
+          }
+        },
+        {
+          "name": "Color/sky/500",
+          "type": "COLOR",
+          "values": {
+            "Value": "#00aeff"
+          },
+          "codeSyntax": {
+            "WEB": "var(--color-sky-500)"
           }
         },
         {

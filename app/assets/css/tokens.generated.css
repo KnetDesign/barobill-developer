@@ -1,20 +1,20 @@
 /* ⚠ 자동 생성 파일 — 직접 수정하지 마세요.
  * 원본: design-tokens/tokens.json · 생성: npm run tokens
- * version 0.1.0 */
+ * version 0.2.0 */
 
 /* Primitive (모드 없음) */
 @theme static {
-  --color-brand-50: #eef5ff;
-  --color-brand-100: #d9e8ff;
-  --color-brand-200: #bcd7ff;
-  --color-brand-300: #8ebdff;
-  --color-brand-400: #5998ff;
-  --color-brand-500: #3273fb;
-  --color-brand-600: #1b55f0;
-  --color-brand-700: #1442dc;
-  --color-brand-800: #1737b2;
-  --color-brand-900: #19338c;
-  --color-brand-950: #142155;
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #dce7ff;
+  --color-brand-200: #bfd3ff;
+  --color-brand-300: #93b4ff;
+  --color-brand-400: #6592ff;
+  --color-brand-500: #3b72ff;
+  --color-brand-600: #3369e7;
+  --color-brand-700: #2652c7;
+  --color-brand-800: #0033a1;
+  --color-brand-900: #0b2a7a;
+  --color-brand-950: #0a1a4a;
   --color-ink-50: #f6f7f9;
   --color-ink-100: #eef0f3;
   --color-ink-200: #dfe3e8;
@@ -30,6 +30,7 @@
   --color-navy-700: #16243f;
   --color-navy-800: #111d33;
   --color-navy-900: #0b1424;
+  --color-sky-500: #00aeff;
   --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --radius-xs: 4px;
